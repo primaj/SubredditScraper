@@ -1,0 +1,7 @@
+praw.ini
+new_wallstreetbets_posts.csv
+venv/
+*.csv
+*.log
+.idea/
+__pycache__/
