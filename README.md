@@ -9,13 +9,14 @@ Once this is done you should be able to use the `get_posts` method to query the 
 
 To get the first 20 hot posts on the front page (sub='all'),  and write them to file:
 
-`SubredditScraper(sub='all',
+```python
+SubredditScraper(sub='all',
                   search=None,
                   sort='hot',
                   lim=20,
                   mode='w',
                   get_comments=False,
-                  replace_more_limit=10).get_posts()`
+                  replace_more_limit=10).get_posts()```
                   
                   
 
