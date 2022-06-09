@@ -16,7 +16,8 @@ SubredditScraper(sub='all',
                   lim=20,
                   mode='w',
                   get_comments=False,
-                  replace_more_limit=10).get_posts()```
+                  replace_more_limit=10).get_posts()
+```
                   
                   
 
